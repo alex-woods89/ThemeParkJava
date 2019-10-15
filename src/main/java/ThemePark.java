@@ -3,6 +3,7 @@ import behaviours.IReviewed;
 import people.Visitor;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class ThemePark {
 
@@ -32,6 +33,5 @@ public class ThemePark {
         visitor.visitAttractions(attraction);
         attraction.increaseVisitCount();
     }
-
-
+    
 }
